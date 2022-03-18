@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="author" content="Lan Emiliano"/>
+        <meta name="viewport" content="width=device-width, initial scale=1">
+        
+        <title>Exercise 9</title>
+    </head>
+    <body style="font-family: 'Courier New', Courier, monospace; color: black;"></body>
+    <center>
+        <h1 style="font-family: Verdana, Geneva, Tahoma, sans-serif; font-size: 60px; color: black;">SIGN UP NOW!</h1>
+    </center>
+    <hr>
+    <h3 style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; ">Field marked with (*) are required</h3>
+    <form action="/action_page.php"></form>
+    <fieldset>
+        <legend><h2>Details</h2></legend>
+        <label for="name">Name*</label>
+        <input type="text" id="name" placeholder="Full Name">
+    <br>
+        <label for="mail">Email*</label>
+        <input type="text" id="mail" placeholder="e.g ryan@gmail.com">
+    <br>
+        <label for="number">Number*</label>
+        <input type="text" id="number" placeholder="Enter 11 digit number">
+    </fieldset>
+    <fieldset>
+        <legend><h2>Delivery Address</h2></legend>
+        <label for="address">Address*</label>
+        <input type="text" id="address" placeholder="House/Apt Number and Street">
+    <br>
+        <label for="district">District/Barangay*</label>
+        <input type="text" id="district" placeholder="e.g Irisan">
+    <br>
+        <label for="city">City*</label>
+        <input type="text" id="city" placeholder="e.g Baguio City">
+    <br>
+    <label for="postal">Postal code*</label>
+    <input type="text" id="postal">
+<br>
+    <label for="province">Province*</label>
+    <input type="text" id="province" placeholder="e.g Benguet">
+    </fieldset>
+<fieldset>
+    <legend><h2>Membership Information</h2></legend>
+    <label for="username">Username</label>
+    <input type="text" id="username">
+<br>
+    <label for="password">Password</label>
+    <input type="text" id="password">
+<br>
+    <dt>Magazine Subscription</dt>
+    <input type="checkbox" id="pc" name="pc" value="PC Magazine">
+    <label for="pc">PC Magazine</label><br>
+    <input type="checkbox" id="wired" name="wired" value="Wired">
+    <label for="wired">Wired</label><br>
+    <input type="checkbox" id="comp" name="comp" value="comp">
+    <label for="comp">Computerworld</label><br>
+    <input type="checkbox" id="idont" name="idont" value="idont">
+    <label for="idont">I don't Subscribe</label><br>
+    <input type="checkbox" id="others" name="others" value="others">
+    <label for="others">Others</label>
+</fieldset>
+<fieldset>
+    <input type="submit" onclick="alert('Thanks for filling up the information!')" value=" Sign Up ">
+</fieldset>
+</html>
